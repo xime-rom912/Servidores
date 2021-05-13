@@ -1,10 +1,75 @@
-<!DOCRYPE html>
+<!DOCTYPE html>
 <html>
  <head>
   <meta charset="utf-8">
   <title>Mi pagina web</title>
+  <link rel="stylesheet" href="/css/master.css">
  </head>
  <body>
-  <h1> Bienvenidos a mi pagina</h1>
+  <h1 id='titulo-principal'> Bienvenidos a mi pagina</h1>
+  <h2 class="border"> Hola soy un encabezado en h2</h2>
+  <h3 class="border"> Hola soy un encabezado en h3</h3>
+  <h4 class="border"> Hola soy un encabezado en h4</h4>
+  <h5 class="border"> Hola soy un encabezado en h5</h5>
+  <h6 class="border"> Hola soy un encabezado en h6</h6>
+  <img src="gato.jpg">
+  <div  id="parrafo-importante">
+   <p>Soy un parafo en div</p>
+  </div>
+  <marquee>
+   <p>Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final</p>
+  </marquee>
+  <h1>TODO LIST</h1> 
+  <p>parrafo numero 2</p>
+  <ul>
+   <li>Baniar al<i> perro</i></li>
+   <li><u>Ir al super</u></li>
+   <li>Pagar el <b>agua</b></li>
+  </ul>
+  <h1>Lista ordenada</h1>
+  <ol>
+    <li><a href="https://www.google.com"> Daniel</a></li>
+    <li><a href="/bio.html">Kevin</a></li>
+    <li><a href="#">Melissa</a></li>
+  </ol>
+  <table>
+   <thead>
+    <tr>
+     <th>Matricula</th>
+     <th>Apellidos</th>
+     <th>Nombre</th>
+     <th>Calificacion</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr>
+      <td>329898</td>
+      <td>Romero</td>
+      <td>Ximena</td>
+      <td>10</td>
+    </tr>
+     <tr>
+      <td>334235</td>
+      <td>Garcia</td>
+      <td>Melissa</td>
+      <td>10</td>
+    </tr>
+   </tbody>
+  </table>
+  <form method="POST" action="/login">
+   <label for="email">Email</label>
+   <input type="text" id="email" name="email"/>
+   <label for="pass">Contrasenia</label>
+   <input type="password" id="pass" name="password"/>
+   <input type="submit"/>
+  </form>
+
+  <a id="show" href="#">Show password</a>
+  <a id="hide" href="#">Hide password</a>
+
+  <div  id="test-parrafo">
+   <p>Soy un parafo para un ejemplo de repeat jiji no saleeeee weeeee</p>
+  </div>
+  <script type="text/javascript" src="/js/main.js"></script>
  </body>
 </html>
