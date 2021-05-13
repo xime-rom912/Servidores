@@ -1,5 +1,5 @@
 # 3.4 Práctica | Primer servidor
-## Autor Ximena ROmero Chavez     329898      6CC1
+## Autor Ximena Romero Chavez     329898      6CC1
 
 La practica consiste en crear un servidor en node.js en las siguientes etapas:
 
